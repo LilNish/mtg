@@ -30,7 +30,7 @@ def order(unordered_lst):
     return ordered_cardlst
 
 def create_xlsx(cardlst, Filename):    
-    Column = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    Column = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     
     workbook = Workbook()
     sheet = workbook.active
